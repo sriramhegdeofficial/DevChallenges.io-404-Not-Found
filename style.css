@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    min-width: 100%;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.title-404 {
+    position: absolute;
+    left: 4%;
+    top: 25px;
+    color: #333333;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+    
+}
+
+.wrapper-2 {
+    flex: 1;
+    height: 40%;
+    
+}
+
+.scarecrow-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    
+}
+
+.scarecrow {
+    max-width: calc(539px * 0.7);
+    max-height: calc(447px * 0.7);
+    width: auto;
+    height: auto;
+    
+    
+}
+
+.bad-news {
+    width: 450px;
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 40px;
+
+}
+
+.bad-news-p {
+    width: 250px;
+    font-size: 1.18rem;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    line-height: 36px;
+}
+
+.pseudo-button {
+    
+    background: #333333;
+    width: 216px;
+    height: 68px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 650px) {
+    .title-404 {
+        position: absolute;
+        left: 4%;
+        top: 25px;
+        color: #333333;
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .wrapper-2 {
+        flex: 1;
+        height: auto;
+        padding: 0px 5%;
+    }
+
+    .scarecrow {
+        max-width: calc(539px * 0.55);
+        max-height: calc(447px * 0.55);
+        width: auto;
+        height: auto;
+        
+        
+    }
+
+    .bad-news {
+        width: auto;
+        font-size: 2.5rem;
+        color: #333333;
+        margin-bottom: 40px;
+    
+    }
+
+    .bad-news-p {
+        width: auto;
+        
+    }
+
+
+  }
